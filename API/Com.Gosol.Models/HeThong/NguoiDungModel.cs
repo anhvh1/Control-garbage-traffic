@@ -1,5 +1,4 @@
 ﻿using Com.Gosol.VHTT.Model.HeThong;
-using Com.Gosol.VHTT.Models.DanhMuc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,7 +55,7 @@ namespace Com.Gosol.VHTT.Models.HeThong
         public string id_token { get; set; } // token nhận về từ sso
         public int? TrangThaiGiaoXacMinh { get; set; }
         public bool? isAdmin { get; set; }
-        public List<CapInfo> ListCap { get; set; }
+        //public List<CapInfo> ListCap { get; set; }
         public NguoiDungModel() { }
         public NguoiDungModel(int NguoiDungID, string TenNguoiDung)
         {

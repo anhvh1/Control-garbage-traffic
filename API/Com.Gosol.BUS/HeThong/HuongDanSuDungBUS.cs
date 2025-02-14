@@ -1,6 +1,5 @@
 ﻿using Com.Gosol.VHTT.DAL.HeThong;
 using Com.Gosol.VHTT.Models;
-using Com.Gosol.VHTT.Models.DanhMuc;
 using Com.Gosol.VHTT.Models.HeThong;
 using System;
 using System.Collections.Generic;

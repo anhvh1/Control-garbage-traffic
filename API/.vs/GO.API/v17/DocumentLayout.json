@@ -3,11 +3,35 @@
   "WorkspaceRootPath": "D:\\TuanDHH\\NX\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D0961E9-762E-42C6-80D2-65E1C053BD26}|GO.API\\GO.API.csproj|D:\\TuanDHH\\NX\\API\\go.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6DB472A3-CCA6-4955-A4D8-778F19F841C8}|Com.Gosol.BUS\\Com.Gosol.BUS.csproj|d:\\tuandhh\\nx\\api\\com.gosol.bus\\hethong\\huongdansudungbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DB472A3-CCA6-4955-A4D8-778F19F841C8}|Com.Gosol.BUS\\Com.Gosol.BUS.csproj|solutionrelative:com.gosol.bus\\hethong\\huongdansudungbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06E8E480-2936-4088-AAC7-832D12C68779}|Com.Gosol.DAL\\Com.Gosol.DAL.csproj|d:\\tuandhh\\nx\\api\\com.gosol.dal\\hethong\\chucnangdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06E8E480-2936-4088-AAC7-832D12C68779}|Com.Gosol.DAL\\Com.Gosol.DAL.csproj|solutionrelative:com.gosol.dal\\hethong\\chucnangdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D74B64-D8CD-49B3-A9E9-3F96C634F7F8}|Com.Gosol.Models\\Com.Gosol.Models.csproj|d:\\tuandhh\\nx\\api\\com.gosol.models\\hethong\\nguoidungmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D74B64-D8CD-49B3-A9E9-3F96C634F7F8}|Com.Gosol.Models\\Com.Gosol.Models.csproj|solutionrelative:com.gosol.models\\hethong\\nguoidungmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D74B64-D8CD-49B3-A9E9-3F96C634F7F8}|Com.Gosol.Models\\Com.Gosol.Models.csproj|d:\\tuandhh\\nx\\api\\com.gosol.models\\hethong\\hethongcanbomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D74B64-D8CD-49B3-A9E9-3F96C634F7F8}|Com.Gosol.Models\\Com.Gosol.Models.csproj|solutionrelative:com.gosol.models\\hethong\\hethongcanbomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D74B64-D8CD-49B3-A9E9-3F96C634F7F8}|Com.Gosol.Models\\Com.Gosol.Models.csproj|d:\\tuandhh\\nx\\api\\com.gosol.models\\hethong\\canbomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D74B64-D8CD-49B3-A9E9-3F96C634F7F8}|Com.Gosol.Models\\Com.Gosol.Models.csproj|solutionrelative:com.gosol.models\\hethong\\canbomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D74B64-D8CD-49B3-A9E9-3F96C634F7F8}|Com.Gosol.Models\\Com.Gosol.Models.csproj|d:\\tuandhh\\nx\\api\\com.gosol.models\\hethong\\canboinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D74B64-D8CD-49B3-A9E9-3F96C634F7F8}|Com.Gosol.Models\\Com.Gosol.Models.csproj|solutionrelative:com.gosol.models\\hethong\\canboinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D0961E9-762E-42C6-80D2-65E1C053BD26}|GO.API\\GO.API.csproj|d:\\tuandhh\\nx\\api\\go.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5D0961E9-762E-42C6-80D2-65E1C053BD26}|GO.API\\GO.API.csproj|solutionrelative:go.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DB472A3-CCA6-4955-A4D8-778F19F841C8}|Com.Gosol.BUS\\Com.Gosol.BUS.csproj|d:\\tuandhh\\nx\\api\\com.gosol.bus\\hethong\\quantridulieubus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6DB472A3-CCA6-4955-A4D8-778F19F841C8}|Com.Gosol.BUS\\Com.Gosol.BUS.csproj|D:\\TuanDHH\\NX\\API\\com.gosol.bus\\hethong\\quantridulieubus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DB472A3-CCA6-4955-A4D8-778F19F841C8}|Com.Gosol.BUS\\Com.Gosol.BUS.csproj|solutionrelative:com.gosol.bus\\hethong\\quantridulieubus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +39,7 @@
       "RelativeMoniker": "D:0:0:{5D0961E9-762E-42C6-80D2-65E1C053BD26}|GO.API\\GO.API.csproj|solutionrelative:go.api\\formats\\loghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D0961E9-762E-42C6-80D2-65E1C053BD26}|GO.API\\GO.API.csproj|d:\\tuandhh\\nx\\api\\go.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D0961E9-762E-42C6-80D2-65E1C053BD26}|GO.API\\GO.API.csproj|D:\\TuanDHH\\NX\\API\\go.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D0961E9-762E-42C6-80D2-65E1C053BD26}|GO.API\\GO.API.csproj|solutionrelative:go.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -94,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 49,
+          "SelectedChildIndex": 36,
           "Children": [
             {
               "$type": "Bookmark",
@@ -242,7 +266,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HuongDanSuDungBUS.cs",
+              "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.BUS\\HeThong\\HuongDanSuDungBUS.cs",
+              "RelativeDocumentMoniker": "Com.Gosol.BUS\\HeThong\\HuongDanSuDungBUS.cs",
+              "ToolTip": "D:\\TuanDHH\\NX\\API\\Com.Gosol.BUS\\HeThong\\HuongDanSuDungBUS.cs",
+              "RelativeToolTip": "Com.Gosol.BUS\\HeThong\\HuongDanSuDungBUS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T04:13:30.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ChucNangDAL.cs",
+              "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.DAL\\HeThong\\ChucNangDAL.cs",
+              "RelativeDocumentMoniker": "Com.Gosol.DAL\\HeThong\\ChucNangDAL.cs",
+              "ToolTip": "D:\\TuanDHH\\NX\\API\\Com.Gosol.DAL\\HeThong\\ChucNangDAL.cs",
+              "RelativeToolTip": "Com.Gosol.DAL\\HeThong\\ChucNangDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T04:13:27.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NguoiDungModel.cs",
+              "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.Models\\HeThong\\NguoiDungModel.cs",
+              "RelativeDocumentMoniker": "Com.Gosol.Models\\HeThong\\NguoiDungModel.cs",
+              "ToolTip": "D:\\TuanDHH\\NX\\API\\Com.Gosol.Models\\HeThong\\NguoiDungModel.cs",
+              "RelativeToolTip": "Com.Gosol.Models\\HeThong\\NguoiDungModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T04:13:07.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HeThongCanBoModel.cs",
+              "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.Models\\HeThong\\HeThongCanBoModel.cs",
+              "RelativeDocumentMoniker": "Com.Gosol.Models\\HeThong\\HeThongCanBoModel.cs",
+              "ToolTip": "D:\\TuanDHH\\NX\\API\\Com.Gosol.Models\\HeThong\\HeThongCanBoModel.cs",
+              "RelativeToolTip": "Com.Gosol.Models\\HeThong\\HeThongCanBoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T04:13:01.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CanBoModel.cs",
+              "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.Models\\HeThong\\CanBoModel.cs",
+              "RelativeDocumentMoniker": "Com.Gosol.Models\\HeThong\\CanBoModel.cs",
+              "ToolTip": "D:\\TuanDHH\\NX\\API\\Com.Gosol.Models\\HeThong\\CanBoModel.cs",
+              "RelativeToolTip": "Com.Gosol.Models\\HeThong\\CanBoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T04:12:07.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CanBoInfo.cs",
+              "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.Models\\HeThong\\CanBoInfo.cs",
+              "RelativeDocumentMoniker": "Com.Gosol.Models\\HeThong\\CanBoInfo.cs",
+              "ToolTip": "D:\\TuanDHH\\NX\\API\\Com.Gosol.Models\\HeThong\\CanBoInfo.cs",
+              "RelativeToolTip": "Com.Gosol.Models\\HeThong\\CanBoInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T04:11:57.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "QuanTriDuLieuBUS.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.BUS\\HeThong\\QuanTriDuLieuBUS.cs",
               "RelativeDocumentMoniker": "Com.Gosol.BUS\\HeThong\\QuanTriDuLieuBUS.cs",
@@ -250,12 +352,11 @@
               "RelativeToolTip": "Com.Gosol.BUS\\HeThong\\QuanTriDuLieuBUS.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T03:48:57.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T03:48:57.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "BaseApiController.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\GO.API\\Formats\\BaseApiController.cs",
               "RelativeDocumentMoniker": "GO.API\\Formats\\BaseApiController.cs",
@@ -267,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Commons.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\GO.API\\Controllers\\Commons.cs",
               "RelativeDocumentMoniker": "GO.API\\Controllers\\Commons.cs",
@@ -279,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "CustomAuthAttribute.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\GO.API\\Authorization\\CustomAuthAttribute.cs",
               "RelativeDocumentMoniker": "GO.API\\Authorization\\CustomAuthAttribute.cs",
@@ -287,12 +388,11 @@
               "RelativeToolTip": "GO.API\\Authorization\\CustomAuthAttribute.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T03:24:49.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T03:24:49.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "DatabaseProxy.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.VHTT.Security\\Security\\DatabaseProxy.cs",
               "RelativeDocumentMoniker": "Com.Gosol.VHTT.Security\\Security\\DatabaseProxy.cs",
@@ -304,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "AccessControl.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.VHTT.Security\\Security\\AccessControl.cs",
               "RelativeDocumentMoniker": "Com.Gosol.VHTT.Security\\Security\\AccessControl.cs",
@@ -316,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "BaseResultModel.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.VHTT.Models\\BaseResultModel.cs",
               "RelativeDocumentMoniker": "Com.Gosol.VHTT.Models\\BaseResultModel.cs",
@@ -328,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "BasePagingParams.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.VHTT.Models\\BasePagingParams.cs",
               "RelativeDocumentMoniker": "Com.Gosol.VHTT.Models\\BasePagingParams.cs",
@@ -340,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\GO.API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "GO.API\\Controllers\\WeatherForecastController.cs",
@@ -352,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Response.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\GO.API\\Formats\\Response.cs",
               "RelativeDocumentMoniker": "GO.API\\Formats\\Response.cs",
@@ -364,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "LogHelper.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\GO.API\\Formats\\LogHelper.cs",
               "RelativeDocumentMoniker": "GO.API\\Formats\\LogHelper.cs",
@@ -372,12 +472,11 @@
               "RelativeToolTip": "GO.API\\Formats\\LogHelper.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAIwAQAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T03:09:37.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T03:09:37.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "GzipHelper.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\GO.API\\Formats\\GzipHelper.cs",
               "RelativeDocumentMoniker": "GO.API\\Formats\\GzipHelper.cs",
@@ -389,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "Enummerator.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.VHTT.Ultilities\\Enummerator.cs",
               "RelativeDocumentMoniker": "Com.Gosol.VHTT.Ultilities\\Enummerator.cs",
@@ -401,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\GO.API\\appsettings.json",
               "RelativeDocumentMoniker": "GO.API\\appsettings.json",
@@ -414,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Com.Gosol.VHTT.Ultilities",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.VHTT.Ultilities\\Com.Gosol.VHTT.Ultilities.csproj",
               "RelativeDocumentMoniker": "Com.Gosol.VHTT.Ultilities\\Com.Gosol.VHTT.Ultilities.csproj",
@@ -425,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\GO.API\\Program.cs",
               "RelativeDocumentMoniker": "GO.API\\Program.cs",
@@ -433,12 +532,11 @@
               "RelativeToolTip": "GO.API\\Program.cs",
               "ViewState": "AQIAAJIAAAAAAAAAAAASwKQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T02:36:17.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T02:36:17.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Com.Gosol.VHTT.Security",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.VHTT.Security\\Com.Gosol.VHTT.Security.csproj",
               "RelativeDocumentMoniker": "Com.Gosol.VHTT.Security\\Com.Gosol.VHTT.Security.csproj",
@@ -449,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Com.Gosol.VHTT.Models",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.VHTT.Models\\Com.Gosol.VHTT.Models.csproj",
               "RelativeDocumentMoniker": "Com.Gosol.VHTT.Models\\Com.Gosol.VHTT.Models.csproj",
@@ -460,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "Com.Gosol.VHTT.DAL",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.VHTT.DAL\\Com.Gosol.VHTT.DAL.csproj",
               "RelativeDocumentMoniker": "Com.Gosol.VHTT.DAL\\Com.Gosol.VHTT.DAL.csproj",
@@ -471,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Com.Gosol.VHTT.BUS",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\Com.Gosol.VHTT.BUS\\Com.Gosol.VHTT.BUS.csproj",
               "RelativeDocumentMoniker": "Com.Gosol.VHTT.BUS\\Com.Gosol.VHTT.BUS.csproj",
@@ -482,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "GO.API",
               "DocumentMoniker": "D:\\TuanDHH\\NX\\API\\GO.API\\GO.API.csproj",
               "RelativeDocumentMoniker": "GO.API\\GO.API.csproj",

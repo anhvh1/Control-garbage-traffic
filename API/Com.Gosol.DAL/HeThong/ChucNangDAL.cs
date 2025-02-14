@@ -8,7 +8,6 @@ using System.Linq;
 using Com.Gosol.VHTT.Model.HeThong;
 using Com.Gosol.VHTT.Models;
 using static Com.Gosol.VHTT.Model.HeThong.ChucNangInfo;
-using Com.Gosol.VHTT.Models.DanhMuc;
 
 namespace Com.Gosol.VHTT.DAL.HeThong
 {
