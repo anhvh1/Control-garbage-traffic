@@ -142,3 +142,5 @@
 /API/GO.API/obj/project.assets.json
 /API/GO.API/obj/project.nuget.cache
 /API/.vs/GO.API/FileContentIndex/40cd7673-f3e8-4d82-ad04-34463d943c01.vsidx
+*.vsidx
+/API/.vs/GO.API/DesignTimeBuild/.dtbcache.v2
