@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Com.Gosol.BUS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9247737db10032ba763b7baa1607a243ddb5d3fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Com.Gosol.BUS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Com.Gosol.BUS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
