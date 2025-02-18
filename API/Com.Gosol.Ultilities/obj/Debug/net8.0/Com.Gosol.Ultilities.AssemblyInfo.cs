@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Com.Gosol.Ultilities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bec81a18e267ee4696eaa109d0e0964a1a9fca6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9247737db10032ba763b7baa1607a243ddb5d3fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("Com.Gosol.Ultilities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Com.Gosol.Ultilities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
