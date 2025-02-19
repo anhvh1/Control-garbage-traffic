@@ -36,18 +36,21 @@ const ZoomableImage = () => {
         const newData = [...response.data];
         try {
           newData.forEach((item, index) => {
-            if (item?.loaiThayDoi) {
+            if (item?.loaiThayDoi === 1) {
               newData[index].XaRac = true;
+            } else if (item?.loaiThayDoi === 2) {
+              newData[index].ThuGomRac = true;
             }
           });
-          console.log(newData, "newData");
+          // console.log(newData, "newData");
           setData(newData);
+          // handleTrashDumping(newData);
           setTimeout(() => {
             const newData = [...response.data].map((item) => ({
               ...item,
               XaRac: false,
+              ThuGomRac: false,
             }));
-            console.log(newData, "resign data");
             setData(newData);
           }, 1500);
         } catch (err) {
@@ -105,13 +108,13 @@ const ZoomableImage = () => {
   };
 
   // Hàm xử lý sự kiện khi nhấn nút đổ rác
-  const handleTrashDumping = () => {
+  const handleTrashDumping = (data) => {
     setIsTrashDumping(true);
 
     // Giả sử bạn muốn xe rác đi tới các thùng rác đầy
     const positions = data
       .map((item, index) => {
-        if (item.trangThaiDay) {
+        if (item.loaiThayDoi === 1) {
           return renderPosition(index);
         }
         return null;
@@ -133,7 +136,7 @@ const ZoomableImage = () => {
     const { top, left } = style;
     const newLeft = left ? `calc(${left} + 70px)` : null;
     const maxLeft = newLeft ? `calc(${left} + 140px)` : null;
-    console.log(maxLeft, "maxLeft");
+    // console.log(maxLeft, "maxLeft");
     return (
       <TruckWrapper left={newLeft} maxLeft={maxLeft}>
         <div class="loader-wrapper">
@@ -183,8 +186,8 @@ const ZoomableImage = () => {
       >
         {({ zoomIn, zoomOut, resetTransform }) => (
           <>
-            <button onClick={handleTrashDumping}>Đổ Rác</button>
-            {isTrashDumping &&
+            {/* <button onClick={handleTrashDumping}>Đổ Rác</button> */}
+            {/* {isTrashDumping &&
               truckPositions.map((position, index) => (
                 <Truck
                   key={index}
@@ -194,7 +197,7 @@ const ZoomableImage = () => {
                     left: position.left,
                   }}
                 />
-              ))}
+              ))} */}
             {/* <Truck /> */}
             <TransformComponent>
               <img
