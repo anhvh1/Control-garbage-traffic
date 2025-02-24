@@ -1,10 +1,10 @@
 const date = new Date();
 const currentYear = date.getFullYear();
 export default {
-  v2Url: "https://displaycms.gosol.com.vn/api/v2/", // api
+  v2Url: "https://nx.gosol.com.vn/api/v1/", // api
 };
 const siteConfig = {
-  siteName: "SMARTSIGNAGE",
+  siteName: "NX Map",
   siteIcon: "", //ion-flash
   footerText: `Copyright © ${currentYear} GO SOLUTIONS. All rights`,
 };

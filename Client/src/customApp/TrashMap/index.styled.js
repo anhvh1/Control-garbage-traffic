@@ -1,4 +1,24 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const createKeyframes = (left, maxLeft) => keyframes`
+  0% {
+    left: -200px;  /* Xe bắt đầu từ ngoài màn hình bên trái */
+    opacity: 1;
+  }
+  40% {
+    left: ${left};  /* Di chuyển đến vị trí thùng rác */
+    opacity: 1;
+  }
+  60% {
+    left: ${left};  /* Dừng lại tại thùng rác */
+    opacity: 1;
+  }
+  100% {
+    left: ${maxLeft};  /* Dừng lại tại thùng rác */
+    opacity: 0;
+    display: none;
+  }
+`;
 
 const MapWrapper = styled.div`
   height: "100vh";
@@ -31,7 +51,7 @@ const TrashWrapper = styled.div`
   .trash-wrap {
     position: relative;
     display: inline-block;
-    width: 150px;
+    width: 40px;
 
     section {
       /* background: #dce7eb; */
@@ -190,31 +210,31 @@ const TrashWrapper = styled.div`
 `;
 
 const TruckWrapper = styled.div`
-  @keyframes truck-animation {
+  /* @keyframes truck-animation {
     0% {
-      left: -200px; /* Xe bắt đầu từ ngoài màn hình bên trái */
+      left: -200px;
       opacity: 1;
     }
     40% {
-      left: ${(props) => props.left}; /* Di chuyển đến vị trí thùng rác */
+      left: ${(props) => props.left};
       opacity: 1;
     }
     60% {
-      left: ${(props) => props.left}; /* Dừng lại tại thùng rác trong 2 giây */
+      left: ${(props) => props.left};
       opacity: 1;
     }
     100% {
-      left: ${(props) =>
-        props.maxLeft}; /* Dừng lại tại thùng rác trong 2 giây */
+      left: ${(props) => props.maxLeft};
       opacity: 0;
       display: none;
     }
-  }
+  } */
 
   .truck-wrapper {
     position: absolute;
     z-index: 10;
-    animation: truck-animation 6s forwards;
+    animation: ${(props) => createKeyframes(props.left, props.maxLeft)} 6s
+      forwards;
   }
 
   .truck {
@@ -246,6 +266,27 @@ const TruckWrapper = styled.div`
       align-items: center;
       img {
         max-width: 60px;
+      }
+      .imgshake {
+        animation: shake 0.5s;
+      }
+
+      @keyframes imgshake {
+        0% {
+          transform: translate(1px, 0);
+        }
+        25% {
+          transform: translate(-1px, 0);
+        }
+        50% {
+          transform: translate(1px, 0);
+        }
+        75% {
+          transform: translate(-1px, 0);
+        }
+        100% {
+          transform: translate(0, 0);
+        }
       }
     }
   }
@@ -584,6 +625,39 @@ const TruckWrapper = styled.div`
       transform: translateY(-5%);
     }
   }
+`;
+export const TrashContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  /* background: #f4f4f4; */
+  border-radius: 10px;
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out; */
+  /* &:hover {
+    transform: scale(1.05);
+  } */
+`;
+export const TrashInfo = styled.div`
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+`;
+
+export const TrashBar = styled.div`
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: ${(props) => props.barColor};
+  transition: width 0.3s ease-in-out;
+`;
+
+export const TrashImage = styled.img`
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
 `;
 export { TrashWrapper, TruckWrapper };
 export default MapWrapper;
