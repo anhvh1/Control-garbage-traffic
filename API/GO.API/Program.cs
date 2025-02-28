@@ -12,6 +12,8 @@ using Microsoft.OpenApi.Models;
 using System.Configuration;
 using Microsoft.Extensions.Configuration;
 using Com.Gosol.VHTT.BUS.HeThong;
+using GO.API.Controllers;
+using System.Net.Sockets;
 
 
 IConfigurationRoot configuration = new ConfigurationBuilder()
@@ -25,8 +27,9 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 });
 
 // Add services to the container.
-
-
+builder.Services.AddSingleton<MapHub>();
+builder.Services.AddSignalR();
+builder.Services.AddMemoryCache();
 builder.Services.AddControllers(options =>
 {
     options.RespectBrowserAcceptHeader = true;
@@ -59,6 +62,11 @@ builder.Services.AddSession();
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 builder.Services.AddCors(options =>
 {
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                      });
     //options.AddPolicy(name: MyAllowSpecificOrigins,
     //                  policy =>
     //                  {
@@ -66,18 +74,19 @@ builder.Services.AddCors(options =>
     //                  });
     //options.AddPolicy("AllowOrigin", builder => builder.AllowAnyMethod().AllowAnyHeader().WithOrigins("https://VHTTtest.gosol.com.vn", "https://VHTT.vinhphuc.gov.vn/"));
 
-    options.AddPolicy(name: MyAllowSpecificOrigins,
-                      policy =>
-                      {
-                          if (configuration.GetSection("AppSettings:DomainName").Value == null || configuration.GetSection("AppSettings:DomainName").Value == "")
-                          {
-                              policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
-                          }
-                          else
-                          {
-                              policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().WithOrigins("http://" + configuration.GetSection("AppSettings:DomainName").Value, "https://" + configuration.GetSection("AppSettings:DomainName").Value);
-                          }
-                      });
+    //options.AddPolicy(name: MyAllowSpecificOrigins,
+    //                  policy =>
+    //                  {
+
+    //                      if (configuration.GetSection("AppSettings:DomainName").Value == null || configuration.GetSection("AppSettings:DomainName").Value == "")
+    //                      {
+    //                          policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin();
+    //                      }
+    //                      else
+    //                      {
+    //                          policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().WithOrigins("http://" + configuration.GetSection("AppSettings:DomainName").Value, "https://" + configuration.GetSection("AppSettings:DomainName").Value);
+    //                      }
+    //                  });
 });
 
 // Cấu hình Swagger https://aka.ms/aspnetcore/swashbuckle
@@ -190,6 +199,7 @@ app.UseHttpsRedirection();
 //cho phép sử dụng authen
 app.UseAuthentication();
 app.UseRouting();
+
 app.UseAuthorization();
 
 //mapping controller
@@ -197,10 +207,15 @@ app.UseAuthorization();
 app.UseStaticFiles();
 app.UseEndpoints(endpoints =>
 {
+    endpoints.MapHub<MapHub>("/mapHub");
+});
+app.UseEndpoints(endpoints =>
+{
     endpoints.MapControllers();
     // Add this line
     endpoints.MapFallbackToFile("/index.html");
 });
+
 
 
 //chạy ứng dụng
