@@ -229,9 +229,17 @@ namespace Com.Gosol.VHTT.Ultilities
         BOT_NGUOIKY = 304,
     }
 
-    
+
 
     #endregion
+
+    public enum EnumNxLogType
+    {
+        [Description("Vứt rác")]
+        VutRac = 1,
+        [Description("Thu gom rác")]
+        ThuGomRac = 2,
+    }
     public static class EnumExtensions
     {
         public static string GetDescription(this Enum value)
