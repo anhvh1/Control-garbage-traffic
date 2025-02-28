@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9816c7bc.css",
+    "main.js": "/static/js/main.22d636f0.js",
+    "static/media/maprac.jpg": "/static/media/maprac.76a11fc508c5917436a3.jpg",
+    "static/media/paper.png": "/static/media/paper.6cf7a6cd8ad4bc213942.png",
+    "static/media/recycling-bin.png": "/static/media/recycling-bin.709e4f4fbb67b5e6a4c4.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.9816c7bc.css",
+    "static/js/main.22d636f0.js"
+  ]
+}
